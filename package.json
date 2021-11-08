@@ -107,6 +107,6 @@
     "publish-please-only": "publish-please",
     "publish-please": "del-cli package-lock.json node_modules && npm i && publish-please",
     "prepublish": "publish-please guard",
-    "start": "node node_modules/gulp/bin/gulp http-playground"
+    "start": "node gulp.js http-playground"
   }
 }
