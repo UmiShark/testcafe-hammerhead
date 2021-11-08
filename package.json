@@ -108,7 +108,6 @@
     "publish-please-only": "publish-please",
     "publish-please": "del-cli package-lock.json node_modules && npm i && publish-please",
     "prepublish": "publish-please guard",
-    "start": "node gulp.js http-playground",
-    "postinstall": "node ./ops/heroku-build.js" 
+    "start": "node gulp.js http-playground"
   }
 }
